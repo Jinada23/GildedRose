@@ -41,6 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\ItemFactory.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemStore.cs" />
+    <Compile Include="Models\Items\BackstageTicketItem.cs" />
+    <Compile Include="Models\Items\CommonItem.cs" />
+    <Compile Include="Models\Items\ConjuredItem.cs" />
+    <Compile Include="Models\Items\ExtendedItem.cs" />
+    <Compile Include="Models\Items\FoodItem.cs" />
+    <Compile Include="Models\Items\LegendaryItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
